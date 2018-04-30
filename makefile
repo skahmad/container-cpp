@@ -1,6 +1,6 @@
-list:list.cpp
-	g++ -c list.cpp -o list.o
-	g++ -o list list.o
+list:src/list.cpp
+	g++ -c src/list.cpp -o obj/list.o
+	g++ -o list obj/list.o
 
 clean:
-	rm -f list.o list
+	rm -f obj/list.o list
